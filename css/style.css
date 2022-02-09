@@ -4,4 +4,34 @@ body {
   background-color: #EBEBEB;
 }
 
+.tim img {
+  width: 150px;
+  border-radius: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border: 2px solid #757575;
+}
+.tim h1 {
+  color: red;
+}
+.tim h2 {
+  color: #757575;
+}
+.tim p {
+  text-align: justify;
+}
+.tim a {
+  color: white;
+  background-color: #DD5555;
+  padding: 1%;
+  border-radius: 5%;
+}
+
+.movie img {
+  float: left;
+}
+.movie .space, .movie .hulot, .movie .alien {
+  display: inline-block;
+}
+
 /*# sourceMappingURL=style.css.map */

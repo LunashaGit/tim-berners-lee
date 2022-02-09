@@ -4,4 +4,37 @@ body{
     background-color: #EBEBEB;
 }
 
+.tim{
+    img{
+        width: 150px;
+        border-radius:100%;
+        -moz-border-radius:100%;
+        -webkit-border-radius:100%;
+        border:2px solid #757575;
+    }
+    h1{
+        color: red;
+    }
+    h2{
+        color:#757575;
+    }
+    p{
+        text-align: justify;
+    }
+    a{
+        color:white;
+        background-color: #DD5555;
+        padding: 1%;
+        border-radius: 5%;
+    }
+}
 
+
+.movie{
+    img{
+        float:left;
+    }
+    .space, .hulot, .alien{
+        display: inline-block;
+    }
+}
