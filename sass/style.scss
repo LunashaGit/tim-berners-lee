@@ -10,9 +10,12 @@ body{
         flex-direction: column;
         align-items: center;
         background-color: #EBEBEB;
-        margin-left: 35%;
-        margin-right: 35%;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-bottom: 1.50%;
+        margin-top: 1.50%;
         border-radius: 1%;
+        padding: 2%;
     }
 }
 
@@ -34,15 +37,18 @@ body{
     }
     p{
         text-align: justify;
-        font-size: 150%;
+        font-size: 125%;
         margin-left: 3%;
         margin-right: 3%;
+        color: #757575;
+
     }
     a{
         color:white;
         background-color: #DD5555;
-        padding: 1%;
+        padding: 2%;
         border-radius: 5%;
+        text-decoration: none;
     }
 }
 
@@ -53,13 +59,30 @@ body{
     li{
         display: inline;
     }
+    a{
+        color: #757575;
+        opacity: 0.50;
+        text-decoration: none;
+    }
 }
 
 .movie{
     img{
         float:left;
+        width: 20%;
     }
     .space, .hulot, .alien{
         display: inline-block;
+        margin-top: 2.50%;
+        margin-bottom: 2.50%;
+        color: #5a5a5a;
+        p{
+            text-align: justify;
+            margin-left: 25%;
+            margin-right: 5%;
+        }
+        h2{
+            text-align: center;
+        }
     }
 }
