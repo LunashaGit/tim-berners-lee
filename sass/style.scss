@@ -1,16 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Syne+Tactile&display=swap');
+
 body{
     margin:0;
     padding: 0;
-    background-color: #EBEBEB;
+    background-color: #C0BEBE;
+    font-family: 'Open Sans', sans-serif;
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #EBEBEB;
+        margin-left: 35%;
+        margin-right: 35%;
+        border-radius: 1%;
+    }
 }
 
 .tim{
+
     img{
         width: 150px;
         border-radius:100%;
         -moz-border-radius:100%;
         -webkit-border-radius:100%;
         border:2px solid #757575;
+        
     }
     h1{
         color: red;
@@ -20,6 +34,9 @@ body{
     }
     p{
         text-align: justify;
+        font-size: 150%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     a{
         color:white;
@@ -29,6 +46,14 @@ body{
     }
 }
 
+.social{
+    ul{
+        list-style-type: none;
+    }
+    li{
+        display: inline;
+    }
+}
 
 .movie{
     img{
