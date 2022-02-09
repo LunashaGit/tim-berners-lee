@@ -58,6 +58,9 @@ body section {
   text-decoration: none;
 }
 
+.movie {
+  color: #5a5a5a;
+}
 .movie img {
   float: left;
   width: 20%;
@@ -66,7 +69,6 @@ body section {
   display: inline-block;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
-  color: #5a5a5a;
 }
 .movie .space p, .movie .hulot p, .movie .alien p {
   text-align: justify;
