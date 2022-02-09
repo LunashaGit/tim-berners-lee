@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Syne+Tactile&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -10,12 +18,10 @@ body section {
   flex-direction: column;
   align-items: center;
   background-color: #EBEBEB;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-bottom: 1.5%;
-  margin-top: 1.5%;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
   border-radius: 1%;
-  padding: 2%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -28,8 +34,10 @@ body section {
 }
 .tim h1 {
   color: red;
+  margin: 2% 2%;
 }
 .tim h2 {
+  margin: 2% 2%;
   color: #757575;
 }
 .tim p {
@@ -38,6 +46,7 @@ body section {
   margin-left: 3%;
   margin-right: 3%;
   color: #757575;
+  margin: 2% 2%;
 }
 .tim a {
   color: white;
@@ -51,7 +60,8 @@ body section {
   display: inline;
 }
 .social li img {
-  width: 50px;
+  width: 20px;
+  filter: invert(46%) sepia(68%) saturate(12%) hue-rotate(327deg) brightness(86%) contrast(87%);
 }
 .social a {
   color: #757575;
@@ -59,15 +69,15 @@ body section {
   text-decoration: none;
 }
 .social ul {
-  display: block;
+  display: inline-block;
   list-style-type: none;
   margin-block-start: 0px;
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
+  margin: 2% 2%;
 }
-
 .movie {
   color: #5a5a5a;
 }
