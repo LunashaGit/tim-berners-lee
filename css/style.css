@@ -52,6 +52,9 @@ body section {
 .social li {
   display: inline;
 }
+.social li img {
+  width: 50px;
+}
 .social a {
   color: #757575;
   opacity: 0.5;

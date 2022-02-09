@@ -58,11 +58,15 @@ body{
     }
     li{
         display: inline;
+        img{
+            width: 50px;
+        }
     }
     a{
         color: #757575;
         opacity: 0.50;
         text-decoration: none;
+
     }
 }
 
